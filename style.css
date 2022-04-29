@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #03dfff;
+    background: linear-gradient(139deg, #03ddffcb 0%, #ff03 90%);
+}
+
+.container {
+    position: relative;
+    max-width: 800px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.inputField {
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+}
+
+.inputField > input[type="text"] {
+    width: 90%;
+    color: #333;
+    border: none;
+    border-bottom: 2px solid #666;
+    background: none;
+    padding: 10px;
+    font-size: 22px;
+    outline: none;
+}
+
+.inputField button {
+    margin: 0 10px;
+    background: #222;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
